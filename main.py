@@ -21,10 +21,11 @@ mensajesTwitter = pnd.read_csv("datas/calentamientoClimatico.csv", delimiter=";"
 #['The', 'Fulton', 'County', 'Grand', 'Jury', 'said', ...]
 #>>> import nltk
 #>>> nltk.download()
-#
+
 
 import nltk
 nltk.download()
+#from nltk.corpus import wordnet
 #nltk.download('stopwords')
 #nltk.download('wordnet')
 
