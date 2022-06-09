@@ -16,9 +16,17 @@
 import pandas as pnd
 mensajesTwitter = pnd.read_csv("datas/calentamientoClimatico.csv", delimiter=";")
 
+#>>> from nltk.corpus import brown
+#>>> brown.words()
+#['The', 'Fulton', 'County', 'Grand', 'Jury', 'said', ...]
+#>>> import nltk
+#>>> nltk.download()
+#
+
 import nltk
-nltk.download('stopwords')
-nltk.download('wordnet')
+nltk.download()
+#nltk.download('stopwords')
+#nltk.download('wordnet')
 
 #Información sobre la cantidad de observaciones y su contenido
 print(mensajesTwitter.shape)
